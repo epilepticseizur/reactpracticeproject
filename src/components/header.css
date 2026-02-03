@@ -1,0 +1,118 @@
+header{
+    width: 1440px;
+}
+.headercontainer{
+    display: flex;
+    background-color: #3576C6;
+    width: 1440px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.headertext{
+    display:flex ;
+    gap: 43px;
+    /* padding-top: 63px; */
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #ffffff;
+    justify-content: center;
+
+}
+
+
+
+.headertext{
+    color: #ffffff;
+
+}
+
+.headertextitem{
+    width: 80px;
+}
+.headertext a {
+    color: #ffffff;
+    text-decoration: none; /* якщо не хочеш підкреслення */
+}
+.headertext h4{
+    color: #ffffff;
+}
+
+
+.headerimg{
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.headerbutton{
+    margin-left: 205px;
+    height: 50px;
+    width: 200px;
+    background-color: #0e1169;
+    border: none;
+}
+
+.headertextactive{
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #0B0E66;
+    
+
+}
+
+.headerbuttontext{
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: justify;
+    color: #26C7EA;
+    padding-left: 33px;
+    
+}
+.headercontainer {
+    display: flex;
+    justify-content: space-between; /* рівномірний розподіл */
+    align-items: center;
+    padding: 0 50px; /* відступи з боків */
+    background-color: #3576C6;
+    height: 150px;
+    width: 100%; /* зайва фіксована ширина прибрана */
+    box-sizing: border-box;
+}
+
+.headertext {
+    display: flex;
+    gap: 40px;
+}
+
+.headertext a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.headertext a:hover {
+    color: #26C7EA;
+}
+
+.headerbutton {
+    height: 50px;
+    width: 200px;
+    background-color: #0e1169;
+    border: none;
+    color: #26C7EA;
+    font-weight: 500;
+    cursor: pointer;
+}

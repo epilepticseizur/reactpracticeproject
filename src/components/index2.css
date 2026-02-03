@@ -1,0 +1,115 @@
+
+
+
+
+
+/* --------------sec2------------ */
+
+
+.sec2container{
+    padding-top: 60px;
+
+}
+
+.sec2texttop h2{
+
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #121212;
+
+}
+
+.sec2texttop p{
+
+    font-family: "Inter", serif;
+    padding-left: 200px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    padding-top: 15px;
+    color: #121212;
+}
+
+
+.sec2images{
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(2, 320px);
+    row-gap: 40px   ;
+    column-gap: 90px;
+    padding-top: 35px;
+    width: 1440px;
+}
+/* ----------------sec3-------------- */
+
+
+.sec3container{
+    padding-top: 60px;
+}
+.sec3texttop h2{
+padding-left: 300px;
+    padding-bottom: 11px;
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+
+}
+
+.sec3texttop p{
+padding-left: 300px;
+    padding-bottom: 35px;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+
+}
+
+.sec3image{
+    padding-bottom: 120px;
+    padding-left: 75px;
+}
+
+
+
+/* --------------------------------sec4--------------- */
+.sec4container{
+    padding-top: 120px;
+}
+
+
+
+.sec4text h2{
+    padding-left: 230px;
+    padding-bottom: 35px;
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+
+}
+
+.sec4image{
+    padding-left: 75px;
+    padding-bottom: 80px;
+}
+.sec1container,
+.sec2container,
+.sec3container,
+.sec4container,
+.sec5container {
+  max-width: 1200px; /* або 90% ширини */
+  margin: 0 auto;    /* по центру */
+  padding: 50px 20px; /* зверху/знизу 50px, з боків 20px */
+}
