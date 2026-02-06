@@ -24,6 +24,12 @@ function Index3() {
     const rpsChoices = ["r", "p", "s"];
 
 
+
+
+
+    const [a, setA] = useState("");
+    const [b, setB] = useState("");
+    const [maxRes, setMaxRes] = useState("");
     const calc = () => {
         let op = "";
 
@@ -87,7 +93,21 @@ function Index3() {
 
 
 
+    const max = () => {
+        let result = "";
 
+        if (a === "" || b === "") {
+            result = "введи два числа";
+        } else if (a > b) {
+            result = a;
+        } else if (b > a) {
+            result = b;
+        } else {
+            result = "числа рівні";
+        }
+
+        setMaxRes(result);
+    };
 
     return (
         <>
@@ -127,8 +147,10 @@ function Index3() {
                         </div>
 
                         <div className="sec2image">
-                            <h2>Заголовок</h2>
-                            <p>Текст...</p>
+                            <input type="number" value={a} onChange={e => setA(e.target.value)} />
+                            <input type="number" value={b} onChange={e => setB(e.target.value)} />
+                            <button onClick={max}>enter</button>
+                            <div>більше — {maxRes}</div>
                         </div>
 
                         <div className="sec2image">
