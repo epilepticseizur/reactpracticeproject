@@ -6,7 +6,7 @@ function Index2() {
                 <div className="sec1container">
                     <div className="sec1image">
 
-                        
+                        <img src="./images/photo_2024-11-26_20-44-53.png" alt="" className="sec1img"></img>
                     </div>
                 </div>
             </section>
@@ -20,11 +20,10 @@ function Index2() {
                     </div>
                     <div className="sec2images">
 
-                        <div className="sec2image"><img src="./images/photo_2024-11-26_20-44-37" alt="" /></div>
-                        <div className="sec2image"><img src="./images/photo_2024-11-26_20-44-37" alt="" /></div>
-                        <div className="sec2image"><img src="./images/photo_2024-11-26_20-44-37" alt="" /></div>
-                        <div className="sec2image"><img src="./images/photo_2024-11-26_20-44-37" alt="" /></div>
-
+                        <div className="sec2image"><img src="/images/photo_2024-11-26_20-44-37.png" alt="" /></div>
+                        <div className="sec2image"><img src="/images/photo_2024-11-26_20-44-37.png" alt="" /></div>
+                        <div className="sec2image"><img src="/images/photo_2024-11-26_20-44-37.png" alt="" /></div>
+                        <div className="sec2image"><img src="/images/photo_2024-11-26_20-44-37.png" alt="" /></div>
 
                     </div>
                 </div>

@@ -4,7 +4,7 @@
             <>
                 <div className="index1">
                     <section className="sec1">
-                        <img src="./images/270c1bd3e43386f0facd3f13d3ca8d3c9061b54a.jpg" alt="" class="sec1img"></img>
+                        <img src="/images/270c1bd3e43386f0facd3f13d3ca8d3c9061b54a.jpg" alt="" className="sec1img"></img>
                     </section>
                     <section className="sec2">
                         <div className="sec2container">
@@ -16,7 +16,7 @@
                                         <h4 className="sec2cardtexth4">1-4 клас</h4>
                                         <h3 className="sec2cardtexth2">Початкова школа</h3>
                                     </div>
-                                    <img src="./images/image(3).png" alt="" class="sec2cardimg1"></img>
+                                    <img src="/images/image(3).png" alt="" className="sec2cardimg1" />
 
                                 </div>
                                 <div className="sec2card">
@@ -24,7 +24,7 @@
                                         <h4 className="sec2cardtexth4">5-11 клас</h4>
                                         <h3 className="sec2cardtexth2">Загальноосвітня школа</h3>
                                     </div>
-                                    <img src="./images/image(3).png" alt="" class="sec2cardimg2"></img>
+                                    <img src="/images/image(3).png" alt="" className="sec2cardimg1" />
 
                                 </div>
                             </div>

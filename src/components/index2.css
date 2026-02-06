@@ -1,6 +1,13 @@
 
 
-
+.sec1img{
+    width: 1440px;
+}
+.sec1image{
+    width: 1440px;
+    padding-left: 185px;
+     margin-top: -50px;
+}
 
 
 /* --------------sec2------------ */
@@ -35,8 +42,12 @@
     color: #121212;
 }
 
-
+.sec2image{
+    width: 500px;
+    height: 320px;
+}
 .sec2images{
+    padding-top: 50px;
     display: grid;
     grid-template-columns: repeat(2, 500px);
     grid-template-rows: repeat(2, 320px);
@@ -44,6 +55,7 @@
     column-gap: 90px;
     padding-top: 35px;
     width: 1440px;
+    border: none;
 }
 /* ----------------sec3-------------- */
 
